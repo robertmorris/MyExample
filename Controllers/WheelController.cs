@@ -19,6 +19,7 @@ namespace MyExample.Controllers
         {
             Wheel wheel = new Wheel(26.0, 1.5);
             Gear gear = new Gear(52.0, 11.0, wheel);
+            wheel.diameter();
         }
     }
 }
